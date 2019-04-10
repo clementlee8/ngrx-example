@@ -1,0 +1,26 @@
+.list-group-item {
+    display: flex;
+    align-items: center;
+    .inner-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        span {
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 3px;
+            margin: 0 3px;
+            line-height: 1;
+            font-size: 9px;
+            svg {
+                fill: #fff;
+            }
+        }
+        .trash {
+            background: red;
+        }
+        .edit {
+            background: lightblue;
+        }
+    }
+}   

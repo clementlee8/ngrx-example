@@ -1,0 +1,7 @@
+<div class="container">
+    <ul class="list-group">
+        <li class="list-group-item justify-content-between" *ngFor="let item of listUser$ | async">
+            {{ item.name }} - {{ item.phone }} - {{ item.email }}
+        </li>
+    </ul>
+</div>
